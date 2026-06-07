@@ -27929,6 +27929,44 @@
    }
   }
  },
+ "PR274": {
+  "id": "PR274",
+  "name": "Shinichi Kudo (PR274)",
+  "type": "Character",
+  "color": "Blue",
+  "rarity": "PR",
+  "level": 8,
+  "ap": 7000,
+  "lp": 2,
+  "face": {
+   "front": {
+    "name": "Shinichi Kudo",
+    "type": "Character",
+    "cost": 8,
+    "image": "https://wilyub.github.io/TCG-Arena-Conan/images/composite/PR274.jpg",
+    "isHorizontal": false
+   }
+  }
+ },
+ "PR275": {
+  "id": "PR275",
+  "name": "Shinichi Kudo (PR275)",
+  "type": "Character",
+  "color": "Blue",
+  "rarity": "PR",
+  "level": 8,
+  "ap": 7000,
+  "lp": 2,
+  "face": {
+   "front": {
+    "name": "Shinichi Kudo",
+    "type": "Character",
+    "cost": 8,
+    "image": "https://wilyub.github.io/TCG-Arena-Conan/images/composite/PR275.jpg",
+    "isHorizontal": false
+   }
+  }
+ },
  "PR276": {
   "id": "PR276",
   "name": "Chihaya Hagiwara (PR276)",
@@ -27986,6 +28024,120 @@
    }
   }
  },
+ "PR281": {
+  "id": "PR281",
+  "name": "Conan Edogawa (PR281)",
+  "type": "Character",
+  "color": "Blue",
+  "rarity": "PR",
+  "level": 8,
+  "ap": 7000,
+  "lp": 2,
+  "face": {
+   "front": {
+    "name": "Conan Edogawa",
+    "type": "Character",
+    "cost": 8,
+    "image": "https://wilyub.github.io/TCG-Arena-Conan/images/composite/PR281.jpg",
+    "isHorizontal": false
+   }
+  }
+ },
+ "PR282": {
+  "id": "PR282",
+  "name": "Kansuke Yamato (PR282)",
+  "type": "Character",
+  "color": "Yellow",
+  "rarity": "PR",
+  "level": 8,
+  "ap": 7000,
+  "lp": 1,
+  "face": {
+   "front": {
+    "name": "Kansuke Yamato",
+    "type": "Character",
+    "cost": 8,
+    "image": "https://wilyub.github.io/TCG-Arena-Conan/images/composite/PR282.jpg",
+    "isHorizontal": false
+   }
+  }
+ },
+ "PR283": {
+  "id": "PR283",
+  "name": "Yui Uehara (PR283)",
+  "type": "Character",
+  "color": "Yellow",
+  "rarity": "PR",
+  "level": 5,
+  "ap": 4000,
+  "lp": 1,
+  "face": {
+   "front": {
+    "name": "Yui Uehara",
+    "type": "Character",
+    "cost": 5,
+    "image": "https://wilyub.github.io/TCG-Arena-Conan/images/composite/PR283.jpg",
+    "isHorizontal": false
+   }
+  }
+ },
+ "PR284": {
+  "id": "PR284",
+  "name": "Takaaki Morofushi (PR284)",
+  "type": "Character",
+  "color": "Yellow",
+  "rarity": "PR",
+  "level": 7,
+  "ap": 5000,
+  "lp": 2,
+  "face": {
+   "front": {
+    "name": "Takaaki Morofushi",
+    "type": "Character",
+    "cost": 7,
+    "image": "https://wilyub.github.io/TCG-Arena-Conan/images/composite/PR284.jpg",
+    "isHorizontal": false
+   }
+  }
+ },
+ "PR285": {
+  "id": "PR285",
+  "name": "Hiromitsu Morofushi (PR285)",
+  "type": "Character",
+  "color": "Yellow",
+  "rarity": "PR",
+  "level": 5,
+  "ap": 5000,
+  "lp": 1,
+  "face": {
+   "front": {
+    "name": "Hiromitsu Morofushi",
+    "type": "Character",
+    "cost": 5,
+    "image": "https://wilyub.github.io/TCG-Arena-Conan/images/composite/PR285.jpg",
+    "isHorizontal": false
+   }
+  }
+ },
+ "PR286": {
+  "id": "PR286",
+  "name": "Fallen Angel of the Highway (PR286)",
+  "type": "Case",
+  "color": "Yellow",
+  "rarity": "PR",
+  "level": null,
+  "ap": null,
+  "lp": null,
+  "face": {
+   "front": {
+    "name": "Fallen Angel of the Highway",
+    "type": "Case",
+    "cost": null,
+    "image": "https://wilyub.github.io/TCG-Arena-Conan/images/composite/PR286.jpg",
+    "isHorizontal": false
+   }
+  }
+ },
  "PR287": {
   "id": "PR287",
   "name": "Chihaya Hagiwara (PR287)",
@@ -28001,6 +28153,272 @@
     "type": "Character",
     "cost": 2,
     "image": "https://wilyub.github.io/TCG-Arena-Conan/images/composite/PR287.jpg",
+    "isHorizontal": false
+   }
+  }
+ },
+ "PR288": {
+  "id": "PR288",
+  "name": "Kenji Hagiwara (PR288)",
+  "type": "Character",
+  "color": "Yellow",
+  "rarity": "PR",
+  "level": 7,
+  "ap": 6000,
+  "lp": 1,
+  "face": {
+   "front": {
+    "name": "Kenji Hagiwara",
+    "type": "Character",
+    "cost": 7,
+    "image": "https://wilyub.github.io/TCG-Arena-Conan/images/composite/PR288.jpg",
+    "isHorizontal": false
+   }
+  }
+ },
+ "PR289": {
+  "id": "PR289",
+  "name": "Mitsuhiko Tsuburaya (PR289)",
+  "type": "Character",
+  "color": "Blue",
+  "rarity": "PR",
+  "level": 7,
+  "ap": 6000,
+  "lp": 0,
+  "face": {
+   "front": {
+    "name": "Mitsuhiko Tsuburaya",
+    "type": "Character",
+    "cost": 7,
+    "image": "https://wilyub.github.io/TCG-Arena-Conan/images/composite/PR289.jpg",
+    "isHorizontal": false
+   }
+  }
+ },
+ "PR290": {
+  "id": "PR290",
+  "name": "Soji Okita (PR290)",
+  "type": "Character",
+  "color": "Green",
+  "rarity": "PR",
+  "level": 7,
+  "ap": 6000,
+  "lp": 0,
+  "face": {
+   "front": {
+    "name": "Soji Okita",
+    "type": "Character",
+    "cost": 7,
+    "image": "https://wilyub.github.io/TCG-Arena-Conan/images/composite/PR290.jpg",
+    "isHorizontal": false
+   }
+  }
+ },
+ "PR291": {
+  "id": "PR291",
+  "name": "Crimson Claw (PR291)",
+  "type": "Event",
+  "color": "White",
+  "rarity": "PR",
+  "level": 5,
+  "ap": null,
+  "lp": null,
+  "face": {
+   "front": {
+    "name": "Crimson Claw",
+    "type": "Event",
+    "cost": 5,
+    "image": "https://wilyub.github.io/TCG-Arena-Conan/images/composite/PR291.jpg",
+    "isHorizontal": false
+   }
+  }
+ },
+ "PR292": {
+  "id": "PR292",
+  "name": "Chianti (PR292)",
+  "type": "Character",
+  "color": "Black",
+  "rarity": "PR",
+  "level": 7,
+  "ap": 5000,
+  "lp": 1,
+  "face": {
+   "front": {
+    "name": "Chianti",
+    "type": "Character",
+    "cost": 7,
+    "image": "https://wilyub.github.io/TCG-Arena-Conan/images/composite/PR292.jpg",
+    "isHorizontal": false
+   }
+  }
+ },
+ "PR293": {
+  "id": "PR293",
+  "name": "Chianti (PR293)",
+  "type": "Character",
+  "color": "Black",
+  "rarity": "PR",
+  "level": 2,
+  "ap": 1000,
+  "lp": 1,
+  "face": {
+   "front": {
+    "name": "Chianti",
+    "type": "Character",
+    "cost": 2,
+    "image": "https://wilyub.github.io/TCG-Arena-Conan/images/composite/PR293.jpg",
+    "isHorizontal": false
+   }
+  }
+ },
+ "PR294": {
+  "id": "PR294",
+  "name": "Kaito Kid (PR294)",
+  "type": "Character",
+  "color": "White",
+  "rarity": "PR",
+  "level": 2,
+  "ap": 1000,
+  "lp": 1,
+  "face": {
+   "front": {
+    "name": "Kaito Kid",
+    "type": "Character",
+    "cost": 2,
+    "image": "https://wilyub.github.io/TCG-Arena-Conan/images/composite/PR294.jpg",
+    "isHorizontal": false
+   }
+  }
+ },
+ "PR295": {
+  "id": "PR295",
+  "name": "Mitsuhiko Tsuburaya (PR295)",
+  "type": "Character",
+  "color": "Blue",
+  "rarity": "PR",
+  "level": 7,
+  "ap": 6000,
+  "lp": 0,
+  "face": {
+   "front": {
+    "name": "Mitsuhiko Tsuburaya",
+    "type": "Character",
+    "cost": 7,
+    "image": "https://wilyub.github.io/TCG-Arena-Conan/images/composite/PR295.jpg",
+    "isHorizontal": false
+   }
+  }
+ },
+ "PR296": {
+  "id": "PR296",
+  "name": "Soji Okita (PR296)",
+  "type": "Character",
+  "color": "Green",
+  "rarity": "PR",
+  "level": 7,
+  "ap": 6000,
+  "lp": 0,
+  "face": {
+   "front": {
+    "name": "Soji Okita",
+    "type": "Character",
+    "cost": 7,
+    "image": "https://wilyub.github.io/TCG-Arena-Conan/images/composite/PR296.jpg",
+    "isHorizontal": false
+   }
+  }
+ },
+ "PR297": {
+  "id": "PR297",
+  "name": "Crimson Claw (PR297)",
+  "type": "Event",
+  "color": "White",
+  "rarity": "PR",
+  "level": 5,
+  "ap": null,
+  "lp": null,
+  "face": {
+   "front": {
+    "name": "Crimson Claw",
+    "type": "Event",
+    "cost": 5,
+    "image": "https://wilyub.github.io/TCG-Arena-Conan/images/composite/PR297.jpg",
+    "isHorizontal": false
+   }
+  }
+ },
+ "PR298": {
+  "id": "PR298",
+  "name": "Chianti (PR298)",
+  "type": "Character",
+  "color": "Black",
+  "rarity": "PR",
+  "level": 7,
+  "ap": 5000,
+  "lp": 1,
+  "face": {
+   "front": {
+    "name": "Chianti",
+    "type": "Character",
+    "cost": 7,
+    "image": "https://wilyub.github.io/TCG-Arena-Conan/images/composite/PR298.jpg",
+    "isHorizontal": false
+   }
+  }
+ },
+ "PR299": {
+  "id": "PR299",
+  "name": "Chianti (PR299)",
+  "type": "Character",
+  "color": "Black",
+  "rarity": "PR",
+  "level": 2,
+  "ap": 1000,
+  "lp": 1,
+  "face": {
+   "front": {
+    "name": "Chianti",
+    "type": "Character",
+    "cost": 2,
+    "image": "https://wilyub.github.io/TCG-Arena-Conan/images/composite/PR299.jpg",
+    "isHorizontal": false
+   }
+  }
+ },
+ "PR300": {
+  "id": "PR300",
+  "name": "Kaito Kid (PR300)",
+  "type": "Character",
+  "color": "White",
+  "rarity": "PR",
+  "level": 2,
+  "ap": 1000,
+  "lp": 1,
+  "face": {
+   "front": {
+    "name": "Kaito Kid",
+    "type": "Character",
+    "cost": 2,
+    "image": "https://wilyub.github.io/TCG-Arena-Conan/images/composite/PR300.jpg",
+    "isHorizontal": false
+   }
+  }
+ },
+ "PR301": {
+  "id": "PR301",
+  "name": "Gin (PR301)",
+  "type": "Character",
+  "color": "Black",
+  "rarity": "PR",
+  "level": 2,
+  "ap": 1000,
+  "lp": 1,
+  "face": {
+   "front": {
+    "name": "Gin",
+    "type": "Character",
+    "cost": 2,
+    "image": "https://wilyub.github.io/TCG-Arena-Conan/images/composite/PR301.jpg",
     "isHorizontal": false
    }
   }
