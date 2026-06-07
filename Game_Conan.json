@@ -119,40 +119,53 @@
           "isSymetricalForOpponents": true,
           "content": [
             {
-              "direction": "column",
-              "style": {
-                "width": "15vh"
-              },
+              "direction": "row",
+              "style": false,
+              "isSymetricalForOpponents": false,
               "content": [
                 {
-                  "section": "Case",
-                  "style": false
-                },
-                {
-                  "section": "Evidence",
+                  "direction": "column",
                   "style": {
-                    "height": "18vh"
-                  }
-                }
-              ]
-            },
-            {
-              "direction": "column",
-              "style": {
-                "width": "50vh"
-              },
-              "content": [
-                {
-                  "section": "Scene",
-                  "style": false
+                    "width": "22vh",
+                    "justifyContent": "start"
+                  },
+                  "content": [
+                    {
+                      "section": "Case",
+                      "style": false
+                    },
+                    {
+                      "section": "Evidence",
+                      "style": {
+                        "marginTop": "0.3rem"
+                      }
+                    }
+                  ]
                 },
                 {
-                  "section": "Partner",
-                  "style": false
-                },
-                {
-                  "section": "File",
-                  "style": false
+                  "direction": "column",
+                  "style": {
+                    "justifyContent": "start",
+                    "marginLeft": "1vh"
+                  },
+                  "content": [
+                    {
+                      "section": "Scene",
+                      "style": false
+                    },
+                    {
+                      "section": "Partner",
+                      "style": {
+                        "marginTop": "0.3rem"
+                      }
+                    },
+                    {
+                      "section": "File",
+                      "style": {
+                        "marginTop": "0.3rem"
+                      }
+                    }
+                  ]
                 }
               ]
             }
@@ -212,8 +225,8 @@
             "title": "File",
             "displayedTitle": "FILE area (FILEエリア)",
             "isHidden": "yes",
-            "height": "MEDIUM",
-            "alignment": "STACK",
+            "height": "SMALL",
+            "alignment": "END",
             "reverseZOrder": true,
             "isHorizontalAllowed": false,
             "enterTapped": false,
@@ -227,8 +240,8 @@
             "title": "Evidence",
             "displayedTitle": "Evidence (証拠)",
             "isHidden": "yes",
-            "height": "MEDIUM",
-            "alignment": "STACK",
+            "height": "SMALL",
+            "alignment": "END",
             "reverseZOrder": true,
             "isHorizontalAllowed": true,
             "enterTapped": false,
