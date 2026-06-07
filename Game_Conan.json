@@ -11,11 +11,7 @@
   },
   "cards": {
     "dataUrl": "https://wilyub.github.io/TCG-Arena-Conan/ConanCards.json",
-    "cardBack": "https://wilyub.github.io/TCG-Arena-Conan/images/backs/char_back.jpg",
-    "extraCardBacks": {
-      "Case": "https://wilyub.github.io/TCG-Arena-Conan/images/backs/case_back.jpg",
-      "Partner": "https://wilyub.github.io/TCG-Arena-Conan/images/backs/partner_back.jpg"
-    }
+    "cardBack": "https://wilyub.github.io/TCG-Arena-Conan/images/backs/char_back.jpg"
   },
   "deckBuilding": {
     "mainFilters": [
