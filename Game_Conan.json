@@ -2,7 +2,7 @@
   "name": "Detective Conan TCG",
   "menuBackgroundImage": "TODO_menu_background_url",
   "cardRotation": 90,
-  "customHelp": "Card states: Active = upright, Sleep = rotated 90 degrees (tap), Stun = rotated 180 degrees. FILE area = face-down resource stack (gates the Level you can play). Deck right-click 'Draw to' -> File (2 each turn, 1 on the first player's turn 1) and -> Evidence (when you Deduce). Refresh: select the Remove pile and 'shuffle into deck', then give the opponent 1 evidence.",
+  "customHelp": "Card states: Active = upright, Sleep = rotated 90 degrees (tap), Stun = rotated 180 degrees. FILE area = face-down resource stack (gates the Level you can play). Deck right-click 'Draw to' -> File (2 each turn, 1 on the first player's turn 1) and -> Evidence (when you Deduce). Refresh: select the Remove pile and 'shuffle into deck', then give the opponent 1 evidence. Your Partner and Case are pulled from your deck to their zones automatically at game start.",
   "defaultRessources": {
     "backgrounds": [
       "TODO_playmat_background_url"
@@ -28,11 +28,37 @@
         "title": "Standard",
         "gameplay": "Standard",
         "customCategories": [
+          "Partner",
+          "Case",
           "Character",
           "Event"
+        ],
+        "deckRuleset": "Standard"
+      }
+    ],
+    "deckRulesets": {
+      "Standard": {
+        "general": {
+          "min": 42,
+          "max": 42,
+          "maxPerCard": 3
+        },
+        "categories": [
+          {
+            "category": "Partner",
+            "min": 1,
+            "max": 1,
+            "maxPerCard": 1
+          },
+          {
+            "category": "Case",
+            "min": 1,
+            "max": 1,
+            "maxPerCard": 1
+          }
         ]
       }
-    ]
+    }
   },
   "gameplay": {
     "Standard": {
@@ -65,7 +91,11 @@
       "beforeGameStart": {
         "initialBoardSetup": []
       },
-      "defaultNotes": "Detective Conan TCG. Most rules are adjudicated by the players. Automated helpers: opening draw + mulligan, 1-card per-turn draw, untap-on-turn.",
+      "categoriesAlreadyOnBoard": [
+        "Partner->Partner",
+        "Case->Case"
+      ],
+      "defaultNotes": "Detective Conan TCG. Most rules are adjudicated by the players. Automated: opening draw + mulligan, 1-card per-turn draw, untap-on-turn, and Partner/Case placed at game start.",
       "tokens": [],
       "draggableTokens": [],
       "countersStartingValues": [
@@ -80,6 +110,10 @@
           "File",
           "Evidence"
         ],
+        "categoriesAlreadyOnBoard": [
+          "Partner->Partner",
+          "Case->Case"
+        ],
         "layout": {
           "direction": "row",
           "isSymetricalForOpponents": true,
@@ -87,7 +121,7 @@
             {
               "direction": "column",
               "style": {
-                "width": "16vh"
+                "width": "15vh"
               },
               "content": [
                 {
@@ -96,13 +130,17 @@
                 },
                 {
                   "section": "Evidence",
-                  "style": false
+                  "style": {
+                    "height": "18vh"
+                  }
                 }
               ]
             },
             {
               "direction": "column",
-              "style": false,
+              "style": {
+                "width": "50vh"
+              },
               "content": [
                 {
                   "section": "Scene",
@@ -122,8 +160,7 @@
         },
         "autoPlayFromHand": {
           "Character": "Scene",
-          "Event": "Stack",
-          "MR": "Partner"
+          "Event": "Stack"
         },
         "autoPlayFromStack": {
           "Event": "Discard"
@@ -147,7 +184,7 @@
             "title": "Scene",
             "displayedTitle": "Scene (現場) — max 5",
             "isHidden": "no",
-            "height": "MEDIUM",
+            "height": "SMALL",
             "alignment": "START",
             "isHorizontalAllowed": true,
             "enterTapped": false,
@@ -161,7 +198,7 @@
             "title": "Partner",
             "displayedTitle": "Partner (パートナー) / MR / Big Jewel",
             "isHidden": "no",
-            "height": "MEDIUM",
+            "height": "SMALL",
             "alignment": "CENTER",
             "isHorizontalAllowed": true,
             "enterTapped": false,
@@ -175,7 +212,7 @@
             "title": "File",
             "displayedTitle": "FILE area (FILEエリア)",
             "isHidden": "yes",
-            "height": "SMALL",
+            "height": "MEDIUM",
             "alignment": "STACK",
             "reverseZOrder": true,
             "isHorizontalAllowed": false,
@@ -190,7 +227,7 @@
             "title": "Evidence",
             "displayedTitle": "Evidence (証拠)",
             "isHidden": "yes",
-            "height": "SMALL",
+            "height": "MEDIUM",
             "alignment": "STACK",
             "reverseZOrder": true,
             "isHorizontalAllowed": true,
