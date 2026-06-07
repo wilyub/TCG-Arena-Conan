@@ -1,0 +1,208 @@
+{
+  "name": "Detective Conan TCG",
+  "menuBackgroundImage": "TODO_menu_background_url",
+  "cardRotation": 90,
+  "customHelp": "Card states: Active = upright, Sleep = rotated 90 degrees (tap), Stun = rotated 180 degrees. FILE area = face-down resource stack (gates the Level you can play). Deck right-click 'Draw to' -> File (2 each turn, 1 on the first player's turn 1) and -> Evidence (when you Deduce). Refresh: select the Remove pile and 'shuffle into deck', then give the opponent 1 evidence.",
+  "defaultRessources": {
+    "backgrounds": [
+      "TODO_playmat_background_url"
+    ],
+    "decksUrl": "https://wilyub.github.io/TCG-Arena-Conan/ConanDecks.json"
+  },
+  "cards": {
+    "dataUrl": "https://wilyub.github.io/TCG-Arena-Conan/ConanCards.json",
+    "cardBack": "https://wilyub.github.io/TCG-Arena-Conan/images/backs/char_back.jpg",
+    "extraCardBacks": {
+      "Case": "https://wilyub.github.io/TCG-Arena-Conan/images/backs/case_back.jpg",
+      "Partner": "https://wilyub.github.io/TCG-Arena-Conan/images/backs/partner_back.jpg"
+    }
+  },
+  "deckBuilding": {
+    "mainFilters": [
+      "type",
+      "color",
+      "level"
+    ],
+    "formats": [
+      {
+        "title": "Standard",
+        "gameplay": "Standard",
+        "customCategories": [
+          "Character",
+          "Event"
+        ]
+      }
+    ]
+  },
+  "gameplay": {
+    "Standard": {
+      "mulligan": {
+        "triggeredByButton": true,
+        "startingHandSize": 5,
+        "mulliganCount": {
+          "min": 0,
+          "max": 1
+        },
+        "mulliganCycle": {
+          "info": "Mulligan: return any number of cards, shuffle them into your deck, then draw that many.",
+          "steps": [
+            "shuffle",
+            "draw"
+          ],
+          "selectionRange": {
+            "min": 0,
+            "max": 5
+          },
+          "keepCardOrder": false
+        }
+      },
+      "newTurn": {
+        "drawOnStart": true,
+        "sharedTurn": false,
+        "firstPlayerTokenName": "",
+        "drawPerTurn": 1
+      },
+      "beforeGameStart": {
+        "initialBoardSetup": []
+      },
+      "defaultNotes": "Detective Conan TCG. Most rules are adjudicated by the players. Automated helpers: opening draw + mulligan, 1-card per-turn draw, untap-on-turn.",
+      "tokens": [],
+      "draggableTokens": [],
+      "countersStartingValues": [
+        0
+      ],
+      "hideFacedDownCards": true,
+      "sections": {
+        "customSections": [
+          "Case",
+          "Scene",
+          "Partner",
+          "File",
+          "Evidence"
+        ],
+        "layout": {
+          "direction": "row",
+          "isSymetricalForOpponents": true,
+          "content": [
+            {
+              "direction": "column",
+              "style": {
+                "width": "16vh"
+              },
+              "content": [
+                {
+                  "section": "Case",
+                  "style": false
+                },
+                {
+                  "section": "Evidence",
+                  "style": false
+                }
+              ]
+            },
+            {
+              "direction": "column",
+              "style": false,
+              "content": [
+                {
+                  "section": "Scene",
+                  "style": false
+                },
+                {
+                  "section": "Partner",
+                  "style": false
+                },
+                {
+                  "section": "File",
+                  "style": false
+                }
+              ]
+            }
+          ]
+        },
+        "autoPlayFromHand": {
+          "Character": "Scene",
+          "Event": "Stack",
+          "MR": "Partner"
+        },
+        "autoPlayFromStack": {
+          "Event": "Discard"
+        },
+        "sectionsDict": {
+          "Case": {
+            "title": "Case",
+            "displayedTitle": "Case (事件)",
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "CENTER",
+            "isHorizontalAllowed": true,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": true,
+            "noQuickActions": false,
+            "showHiddenCardInHistory": false
+          },
+          "Scene": {
+            "title": "Scene",
+            "displayedTitle": "Scene (現場) — max 5",
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "START",
+            "isHorizontalAllowed": true,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "noQuickActions": false,
+            "showHiddenCardInHistory": false
+          },
+          "Partner": {
+            "title": "Partner",
+            "displayedTitle": "Partner (パートナー) / MR / Big Jewel",
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "CENTER",
+            "isHorizontalAllowed": true,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "noQuickActions": false,
+            "showHiddenCardInHistory": false
+          },
+          "File": {
+            "title": "File",
+            "displayedTitle": "FILE area (FILEエリア)",
+            "isHidden": "yes",
+            "height": "SMALL",
+            "alignment": "STACK",
+            "reverseZOrder": true,
+            "isHorizontalAllowed": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": true,
+            "noQuickActions": false,
+            "showHiddenCardInHistory": false
+          },
+          "Evidence": {
+            "title": "Evidence",
+            "displayedTitle": "Evidence (証拠)",
+            "isHidden": "yes",
+            "height": "SMALL",
+            "alignment": "STACK",
+            "reverseZOrder": true,
+            "isHorizontalAllowed": true,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": true,
+            "noQuickActions": false,
+            "showHiddenCardInHistory": false
+          }
+        }
+      }
+    }
+  }
+}

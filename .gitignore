@@ -1,0 +1,16 @@
+# Publish ONLY the playable assets to GitHub. Everything below stays local.
+data/
+images/original/
+pages/
+proto/
+*.pdf
+*.py
+*.js
+*.html
+*.log
+*.txt
+*.md
+.DS_Store
+
+# (Tracked & published: images/composite/, images/backs/, ConanCards.json,
+#  Game_Conan.json, ConanDecks.json)
