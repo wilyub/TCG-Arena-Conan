@@ -72,6 +72,7 @@
         "mulliganCycle": {
           "info": "Mulligan: return any number of cards, shuffle them into your deck, then draw that many.",
           "steps": [
+            "toBottom",
             "shuffle",
             "draw"
           ],
@@ -97,7 +98,38 @@
       ],
       "defaultNotes": "Detective Conan TCG. Most rules are adjudicated by the players. Automated: opening draw + mulligan, 1-card per-turn draw, untap-on-turn, and Partner/Case placed at game start.",
       "tokens": [],
-      "draggableTokens": [],
+      "draggableTokens": [
+        {
+          "id": "first",
+          "name": "First player (1)",
+          "image": "https://wilyub.github.io/TCG-Arena-Conan/images/tokens/first.png"
+        },
+        {
+          "id": "second",
+          "name": "Second player (2)",
+          "image": "https://wilyub.github.io/TCG-Arena-Conan/images/tokens/second.png"
+        },
+        {
+          "id": "case_phase",
+          "name": "Case Phase (事件編)",
+          "image": "https://wilyub.github.io/TCG-Arena-Conan/images/tokens/case_phase.png"
+        },
+        {
+          "id": "resolution_phase",
+          "name": "Resolution Phase (解決編)",
+          "image": "https://wilyub.github.io/TCG-Arena-Conan/images/tokens/resolution_phase.png"
+        },
+        {
+          "id": "stun",
+          "name": "Stun",
+          "image": "https://wilyub.github.io/TCG-Arena-Conan/images/tokens/stun.png"
+        },
+        {
+          "id": "inactive",
+          "name": "Inactive",
+          "image": "https://wilyub.github.io/TCG-Arena-Conan/images/tokens/inactive.png"
+        }
+      ],
       "countersStartingValues": [
         0
       ],
