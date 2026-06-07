@@ -126,7 +126,7 @@
                 {
                   "direction": "column",
                   "style": {
-                    "width": "22vh",
+                    "width": "32vh",
                     "justifyContent": "start"
                   },
                   "content": [
@@ -219,7 +219,17 @@
             "isGroupForbidden": false,
             "keepTappedNewTurn": false,
             "noQuickActions": false,
-            "showHiddenCardInHistory": false
+            "showHiddenCardInHistory": false,
+            "cardActionShortcut": {
+              "action": "MOVE",
+              "actionData": {
+                "destination": "File",
+                "overrideState": {
+                  "isHidden": false,
+                  "isTapped": true
+                }
+              }
+            }
           },
           "File": {
             "title": "File",
